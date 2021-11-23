@@ -1,0 +1,11 @@
+name: TrialPlugin
+main: dev.hawu.plugins.trial.TrialPlugin
+description: Trial plugin.
+api-version: 1.13
+version: 1.0-SNAPSHOT
+depend: [ MultiJVMLang ]
+softdepend: [ HikariLibrary ]
+authors: [ Haru ]
+commands:
+  topmobs:
+    description: Lists out top mobs you have killed.
