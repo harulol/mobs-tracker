@@ -9,3 +9,7 @@ authors: [ Haru ]
 commands:
   topmobs:
     description: Lists out top mobs you have killed.
+permissions:
+  trial.topmobs:
+    default: true
+    description: Allows you to see the top mobs you have killed.
